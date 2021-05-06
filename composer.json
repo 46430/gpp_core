@@ -1,0 +1,21 @@
+{
+    "name": "gpp/core",
+    "description": "gpp && core",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "twopei",
+            "email": "twopei@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php" : ">=7.3"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"gpp\\core\\":"src/gpp/core"
+    	}
+    }
+}
